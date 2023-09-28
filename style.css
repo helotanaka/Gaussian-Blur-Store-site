@@ -1,0 +1,374 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.Logo{
+    display: flex;
+    margin: 5px;
+    height: 40px;
+    margin-top: 9px;
+    width: auto;
+    filter: blur(0);
+    transition: filter 0.4s ease;
+    margin-right: 5px;
+}
+
+.Logo:hover{
+    filter: blur(2px);
+}
+
+.Opcoes_Header{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    font-family: 'Jost', sans-serif;
+}
+
+a {
+    color: inherit; 
+    text-decoration: none; 
+    text-decoration-color: transparent;
+}
+
+
+#ShoppingCart{
+    display: flex;
+    width: auto;
+    height: 30px;
+    margin: 5px;
+    margin-top: 5px;
+}
+
+
+.MeioDaPagina p{
+    font-family: 'Jost', sans-serif;
+}
+
+#Nomes{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#Preco{
+    font-size: 11px;
+    color: grey;
+    margin-top: -15px;
+    margin-left: 5px;
+}
+
+#TopsNav{
+    display: flex;
+    justify-content: center;
+}
+
+#CTOP1 img{
+    height: 370px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+#CTOP1 img:hover {
+    transform: scale(1.1);
+}
+
+#CTOP2 img{
+    height: 370px;
+    width: auto;
+    transition: transform 0.3s ease;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#CTOP2 img:hover {
+    transform: scale(1.1);
+}
+
+#CTOP2 p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#CTOP3 img{
+    height: 370px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+#CTOP3 img:hover {
+    transform: scale(1.1);
+}
+
+#ChapeusNav{
+    display: flex;
+    justify-content: center;
+}
+
+#CHAT1 img{
+    height: 370px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+#CHAT1 img:hover {
+    transform: scale(1.1);
+}
+
+#CHAT2 img{
+    height: 370px;
+    width: auto;
+    transition: transform 0.3s ease;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#CHAT2 img:hover {
+    transform: scale(1.1);
+}
+
+#CHAT2 p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#CHAT3 img{
+    height: 370px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+#CHAT3 img:hover {
+    transform: scale(1.1);
+}
+
+#BolsasNav{
+    display: flex;
+    justify-content: center;
+}
+
+#CBAG1 img{
+    height: 370px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+#CBAG1 img:hover {
+    transform: scale(1.1);
+}
+
+#CBAG2 img{
+    height: 370px;
+    width: auto;
+    transition: transform 0.3s ease;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#CBAG2 img:hover {
+    transform: scale(1.1);
+}
+
+#CBAG2 p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#CBAG3 img{
+    height: 370px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+#CBAG3 img:hover {
+    transform: scale(1.1);
+}
+
+#AcessoriosNav{
+    display: flex;
+    justify-content: center;
+}
+
+#CACCS1 img{
+    height: 370px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+#CACCS1 img:hover {
+    transform: scale(1.1);
+}
+
+#CACCS2 img{
+    height: 370px;
+    width: auto;
+    transition: transform 0.3s ease;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#CACCS2 img:hover {
+    transform: scale(1.1);
+}
+
+#CACCS2 p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#CACCS3 img{
+    height: 370px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+#CACCS3 img:hover {
+    transform: scale(1.1);
+}
+
+#BordadosNav{
+    display: flex;
+    justify-content: center;
+}
+
+#BOR1 img{
+    height: 370px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+#BOR1 img:hover {
+    transform: scale(1.1);
+}
+
+#BOR2 img{
+    height: 370px;
+    width: auto;
+    transition: transform 0.3s ease;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#BOR2 img:hover {
+    transform: scale(1.1);
+}
+
+#BOR2 p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#BOR3 img{
+    height: 370px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+#BOR3 img:hover {
+    transform: scale(1.1);
+}
+
+#FooterNav {
+    max-height: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    padding: 0;
+    width: 440px;
+    margin-left: 405px;
+    transition: max-height 0.5s ease-out;
+    border-radius: 10px;
+}
+
+form{
+    font-size: 15px;
+    display: flex;
+    margin: 25px;
+    font-family: 'Jost', sans-serif;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Contato{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    font-family: 'Jost', sans-serif;
+    cursor: pointer;
+}
+
+#mostrar-meios {
+    display: none;
+}
+
+#mostrar-meios:checked + #FooterNav {
+    max-height: 500px;
+    transition: max-height 0.5s ease-in;
+}
+
+#Input{
+    width: 250px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #676767;
+}
+
+#Input1{
+    width: 115px;
+    margin-left: -135px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #676767;
+}
+
+#Input2{
+    margin-top: -6px;
+    width: 115px;
+    margin-left: 135px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #676767;
+}
+
+#Input3{
+    height: 55px;
+    width: 250px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #676767;
+}
+
+#NomesCont1{
+    width: 200px;
+    margin: 8px;
+    margin-left: -28px;
+}
+
+#NomesCont2{
+    margin-top: -49px;
+    margin-left: 120px;
+}
+
+form button{
+    margin: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #676767;
+    background-color: #c7c6c6;
+    font-family: 'Jost', sans-serif;
+}
+
+#Fim{
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    font-family: 'Jost', sans-serif;
+}

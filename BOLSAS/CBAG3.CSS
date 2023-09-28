@@ -1,0 +1,165 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Jost', sans-serif;
+}
+
+header{
+    display: grid;
+    padding: 5px;
+    align-items: center;
+    grid-template-columns: 1fr auto;
+}
+
+.Header{
+    display: contents;
+}
+
+.Logo{
+        margin: 5px;
+        height: 40px;
+        margin-top: 9px;
+        justify-self: center;
+        width: auto;
+        filter: blur(0);
+        transition: filter 0.4s ease;
+        margin-right: 5px;
+}
+
+.Logo:hover{
+    filter: blur(2px);
+}
+
+
+a{
+    color: inherit; 
+    text-decoration: none; 
+    text-decoration-color: transparent;
+    display: contents;
+}
+
+
+#ShoppingCart{
+        justify-self: end;
+        width: auto;
+        height: 30px;
+        margin: 5px;
+        margin-top: 5px;
+}
+
+#Nav{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#Foto{
+    width: auto;
+    height: 450px;
+    margin-top: 5px;
+}
+
+#Nome{
+    font-size: 40px;
+    margin-left: 52px;
+    width: 550px;
+    margin-top: 5px;
+}
+
+#Preco{
+    margin-top: 60px;
+    margin-left: -538px;
+    font-size: 25px;
+}
+
+#Descricao{
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 118px;
+    margin-left: -94px;
+} 
+
+
+
+
+
+
+#Pagamento {
+    max-height: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    padding: 0;
+    margin: 25px;
+    height: 100px;
+    display: grid;
+    width: 200px;
+    justify-content: center;
+    margin-left: -385px;
+    margin-top: -2px;
+    transition: max-height 0.5s ease-out;
+}
+
+#botao-label {
+    color: #979797;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: -378px;
+    display: flex;
+    margin-top: 420px;
+    width: 150px;
+}
+
+#mostrar-meios {
+    display: none;
+}
+
+#mostrar-meios:checked + #Pagamento {
+    max-height: 500px;
+    transition: max-height 0.5s ease-in; 
+}
+
+#MiniFotos1{
+    width: auto;
+    height: 25px;
+    margin-top: 18px;
+}
+
+#MiniFotos2{
+    width: auto;
+    height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#Botao{
+    width: 563px;
+    height: 68px;
+    margin-left: -298px;
+    margin-top: 350px;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    border: none;
+    background-color: #DFDFE9;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border-radius: 5px;
+}
+
+#Botao:hover{
+    background-color: #D2D4DB;
+}
+
+#Fim{
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+    font-family: 'Jost', sans-serif;
+}
